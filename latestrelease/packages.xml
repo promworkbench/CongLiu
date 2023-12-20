@@ -1,9 +1,32 @@
 
 					<packages>
-						<package name="NewPackageIvy" version="6.14.4" os="all" url="NewPackageIvy/NewPackageIvy-6.14.4-all.zip" desc="New Package with Ivy" org="Eindhoven University of Technology" license="GPL" author="H.M.W. Verbeek" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
-				    	<dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+						<package name="CongLiu" version="6.14.5" os="all" url="CongLiu/CongLiu-6.14.5-all.zip" desc="Sandbox of Cong Liu" org="Eindhoven University of Technology" license="L-GPL" author="Cong Liu" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+				       <dependency org="prom" name="Log" rev="latest" changing="true" transitive="true" />
+       <dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
+       <dependency org="prom" name="Flex" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="CausalActivityMatrix" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="LogAbstractions" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="ProcessLogGenerator" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="EfficientStorage" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PetriNets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PNetReplayer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="HeuristicsMiner" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="ETConformance" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="TransitionSystems" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PNAnalysis" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="InductiveMiner" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="InductiveVisualMiner" rev="latest" changing="true" transitive="true"/>
+        <dependency org="prom" name="AlphaMiner" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PTMerge" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="XESLite" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DivideAndConquer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DataAwareReplayer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DataPetriNets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="LogMerge" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="CSVImporter" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="GraphViz" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="HybridILPMiner" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Murata" rev="latest" changing="true" transitive="true" />
 
 						</package>
 					</packages>
