@@ -1,0 +1,34 @@
+package designpatterns.observerpattern;
+/*
+ * this class defines the structure of the detected observer patterns instances by DPD. 
+ * it is only an intermediate data structure to store the original patterns. 
+ */
+
+import java.util.HashSet;
+
+public class ObserverCandidate {
+
+	private String observer ="";
+	private String subject ="";
+	private HashSet<String> notifySet = new HashSet<>();
+	
+	public String getObserver() {
+		return observer;
+	}
+	public void setObserver(String observer) {
+		this.observer = observer;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public HashSet<String> getNotifySet() {
+		return notifySet;
+	}
+	public void setNotifySet(HashSet<String> notifySet) {
+		this.notifySet = notifySet;
+	}
+	
+}
